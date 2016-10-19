@@ -1,0 +1,93 @@
+* {
+    font-family: "Abyssinica SIL";
+}
+
+a {
+    color: #0074A2;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+a:hover{
+    color: #003300;
+}
+
+.bar {
+    border: 2px inset;
+    border-color: red;
+    padding: 10px;
+}
+
+.bar b {
+    color: #FF3399;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.container {
+    width: 1000px;
+    border: 2px inset;
+    border-color: chartreuse;
+    margin: auto;
+    padding: 1px;
+    background: white;
+}
+
+header, footer {
+    margin: 20px;
+    padding: 10px;
+}
+
+.content {
+    padding: 20px;
+}
+
+header {
+    height: 50px;
+    text-align: right;
+    font-style: italic;
+    background: #BCBE97;
+
+}
+
+footer {
+    height: 40px;
+    text-align: center;
+    background: #F2F2F2;
+}
+
+.contact-form {
+    width: 700px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #444;
+    background: #403E3F;
+    overflow: hidden;
+}
+
+nav {
+    border-bottom: 2px solid #EDEDED;
+    border-top: 2px solid #EDEDED;
+    padding: 10px;
+}
+
+.flower {
+    float: right;
+}
+
+.flower img {
+    height: 50px;
+    margin-left: 50px;
+}

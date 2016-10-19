@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>All about form</title>
+</head>
+<body>
+    <a href="index.html" title="main_page" target="_self">Main page</a>
+    <form method="post" action="" enctype="multipart/form-data">
+        <table border="1">
+            <tr>
+                <td>Name: </td>
+                <td><input type="text" name="name" placeholder="Enter your name" /></td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td><input type="email" name="email" placeholder="Enter your email" /></td>
+            </tr>
+            <tr>
+                <td>Phone: </td>
+                <td><input type="text" name="phone" placeholder="Enter your phone number" /></td>
+            </tr>
+            <tr>
+                <td>Message: </td>
+                <td colspan="2"><textarea name="message" placeholder="Enter your message"></textarea></td>
+            </tr>
+            <tr>
+                <td>Gender: </td>
+                <td>
+                    <input type="radio" name="gender" value="female"/> Female </br>
+                    <input type="radio" name="gender" value="male" checked/> Male
+                </td>
+            </tr>
+            <tr>
+                <td>Search candidats:</td> </br>
+                <td>
+                    <input type="checkbox" name="junior" value="1" checked/> Junior </br>
+                    <input type="checkbox" name="middle" value="1"/> Middle </br>
+                    <input type="checkbox" name="senior" value="1"/> Senior
+                </td>
+            </tr>
+            <tr>
+                <td>Select country:</td>
+                <td>
+                    <select name="country">
+                        <option selected value="0">Choose your country</option>
+                        <option disabled value="za">Zimbabwe</option>
+                        <option value="es">Spain</option>
+                        <option value="en">England</option>
+                        <option value="ua">Ukraine</option>
+                        <option value="de">Germany</option>
+                        <option disabled value="ussr">USSR</option>
+                    </select>
+                </td>
+            </tr>
+            <input type="hidden" name="create_date" value="19.09.16" />
+            <tr>
+                <td>
+                    Upload resume:
+                </td>
+                <td>
+                    <input type="file" name="resume">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Send" /></td>
+            </tr>
+        </table>
+    </form>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/H2Jc1wHlhEU" frameborder="0" allowfullscreen></iframe>
+
+    </br>
+    <video width="560" height="315" controls>
+        <source src="cooking.mp4" type="video/mp4">
+    </video>
+
+</body>
+</html>

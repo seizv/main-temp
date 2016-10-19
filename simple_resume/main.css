@@ -1,0 +1,75 @@
+#header {
+    height: 100px;
+    background-color: lightgreen;
+}
+
+#content {
+    min-height: 300px;
+    background-color: darkturquoise;
+}
+
+#footer {
+    background-color: #8b4476;
+}
+
+h1 {
+    margin: 0;
+}
+
+.pull-center {
+    text-align: center;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid red;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: darkslategray;
+}
+
+.test_fc :first-child {
+    font-size: 8px;
+}
+
+.test_fc :last-child {
+    font-size: 12px;
+}
+
+form .form-input{
+    margin: 10px;
+}
+
+form .form-input :first-child {
+    margin-top: 0;
+}
+
+
+.form-input label {
+    display: inline-block;
+    width: 200px;
+}
+
+.phone .operator:before {
+    content: "(";
+    display: inline-block;
+}
+
+.phone .operator:after {
+    content: ")";
+    display: inline-block;
+}
+
+.phone .number:before {
+    display: inline-block;
+}
+
+.phone .number:after {
+    display: inline-block;
+}
+

@@ -1,0 +1,1 @@
+a:4:{i:0;a:3:{s:2:"id";i:1;s:4:"name";s:6:"qweqwe";s:8:"password";s:6:"werwer";}i:1;a:3:{s:2:"id";i:2;s:4:"name";s:9:"werwerwer";s:8:"password";s:7:"wwerwer";}i:2;a:3:{s:2:"id";i:3;s:4:"name";s:4:"1231";s:8:"password";s:6:"werwer";}i:3;a:3:{s:2:"id";i:4;s:4:"name";s:6:"123213";s:8:"password";s:6:"234234";}}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    .error{
+        color: red;
+    }
+</style>
+        <form action="" method="post">
+            <div class="">
+                <label for="name">Name:</label>
+                <input name="name" id="name">
+                <?php
+                    if (isset($errors['name'])):?>
+                    <div class="error"><?=$errors['name'];?></div>
+                <?php endif;?>
+            </div>
+
+            <div class="">
+                <label for="password">Password:</label>
+                <input name="password" type="password" id="password">
+            </div>
+            <button type="submit">registration</button>
+
+
+        </form>
+</body>
+</html>
